@@ -1,13 +1,11 @@
 import React from "react";
 import { Box, Image, Button, Spacer, Flex } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import bg from "../../public/assets/bg1.jpg";
-import image3 from "../../public/assets/image3.png";
 
 function About() {
   return (
     <Box
-      bgImage={bg}
+      bgImage="../../public/assets/bg1.jpg"
       bgSize="cover"
       minH="100vh"
       w="100%"
@@ -16,7 +14,7 @@ function About() {
     >
       <Box pt={["1", "19"]}>
         <Image
-          src={image3}
+          src="../../public/assets/image3.png"
           alt=""
           borderRadius="50%"
           p="5"

@@ -11,13 +11,11 @@ import {
   Spacer,
 } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
-import bg from "../../public/assets/bg1.jpg";
-import image3 from "../../public/assets/image3.png";
 
 function ContactMe() {
   return (
     <Box
-      bgImage={bg}
+      bgImage="../../public/assets/bg1.jpg"
       bgSize="cover"
       minH="100vh"
       w="100%"
@@ -27,7 +25,7 @@ function ContactMe() {
       <Flex w="100%" flexDirection={["column", "column", "row"]}>
         <Box w={["100%", "70%", "30%"]} m={["0", "auto", "0"]}>
           <Image
-            src={image3}
+            src="../../public/assets/image3.png"
             alt=""
             w={["100%", "90%", "70%"]}
             m={["0", "auto", "0"]}

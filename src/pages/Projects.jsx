@@ -11,13 +11,11 @@ import {
   Link,
 } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
-import bg from "../../public/assets/bg1.jpg";
-import image3 from "../../public/assets/image3.png";
 
 function Projects() {
   return (
     <Box
-      bgImage={bg}
+      bgImage="../../public/assets/bg1.jpg"
       bgSize="cover"
       minH="100vh"
       w="100%"
@@ -36,7 +34,7 @@ function Projects() {
           // bgColor={"green"}
         >
           <Image
-            src={image3}
+            src="../../public/assets/image3.png"
             alt=""
             w={["100%", "90%", "70%"]}
             m={["0", "auto", "0"]}
