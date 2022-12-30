@@ -15,7 +15,7 @@ import { Link as RouterLink } from "react-router-dom";
 function Projects() {
   return (
     <Box
-      bgImage="../../public/assets/bg1.jpg"
+      bgImage="/assets/bg1.jpg"
       bgSize="cover"
       minH="100vh"
       w="100%"
@@ -34,7 +34,7 @@ function Projects() {
           // bgColor={"green"}
         >
           <Image
-            src="../../public/assets/image3.png"
+            src="/assets/Image3.jpg"
             alt=""
             w={["100%", "90%", "70%"]}
             m={["0", "auto", "0"]}

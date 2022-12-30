@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function About() {
   return (
     <Box
-      bgImage="../../public/assets/bg1.jpg"
+      bgImage="/assets/bg1.jpg"
       bgSize="cover"
       minH="100vh"
       w="100%"
@@ -14,7 +14,7 @@ function About() {
     >
       <Box pt={["1", "19"]}>
         <Image
-          src="../../public/assets/image3.png"
+          src="/assets/Image3.jpg"
           alt=""
           borderRadius="50%"
           p="5"

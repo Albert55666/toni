@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <Flex
-      bgImage="../public/assets/bg1.jpg"
+      bgImage="/assets/bg1.jpg"
       bgSize="cover"
       minH="100vh"
       w="100%"
@@ -26,7 +26,7 @@ function Home() {
           <Image
             p={["3", "5"]}
             boxShadow="2xl"
-            src="../public/assets/image3.png"
+            src="/assets/Image3.jpg"
             alt=""
             width="100%"
             h={["40vh", "50vh"]}

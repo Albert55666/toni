@@ -15,7 +15,7 @@ import { Link as RouterLink } from "react-router-dom";
 function ContactMe() {
   return (
     <Box
-      bgImage="../../public/assets/bg1.jpg"
+      bgImage="/assets/bg1.jpg"
       bgSize="cover"
       minH="100vh"
       w="100%"
@@ -25,7 +25,7 @@ function ContactMe() {
       <Flex w="100%" flexDirection={["column", "column", "row"]}>
         <Box w={["100%", "70%", "30%"]} m={["0", "auto", "0"]}>
           <Image
-            src="../../public/assets/image3.png"
+            src="/assets/Image3.jpg"
             alt=""
             w={["100%", "90%", "70%"]}
             m={["0", "auto", "0"]}
